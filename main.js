@@ -7,7 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
   const navLinks = document.querySelector(".nav-links");
   const overlay = document.querySelector(".nav-overlay");
+const navClose = document.querySelector(".nav-close");
+  navClose?.addEventListener("click", closeNav);
 
+  
   function closeNav() {
     hamburger?.classList.remove("open");
     navLinks?.classList.remove("open");
