@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="google-site-verification" content="AuuDVw0IGmLdEuf1GsXgKiNwqxxUEAkjcGWHWKUlZK0" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aadarsh Property and Builders | Kota, Rajasthan</title>
 <meta name="description" content="Trusted real estate guide in Kota, Rajasthan since 2010. Buy, sell, construct & invest with Aadarsh Property and Builders.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
 <header class="site-header">
   <div class="nav-wrap">
     <a href="index.html" class="brand">
-      <span class="brand-mark">A</span>
+      <img src="images/logo.png" alt="Aadarsh Property and Builders Logo" class="brand-logo">
       <span>Aadarsh Property<br><small>& Builders</small></span>
     </a>
     <nav class="nav-links" id="navLinks">
-      <button class="nav-close" id="navClose" aria-label="Close menu">✕</button>
+    
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="services.html">Services</a>
@@ -35,12 +36,64 @@
       <a href="#" class="btn btn-outline" data-tel>📞 094144 19786</a>
       <a href="#" class="btn btn-primary" data-wa>WhatsApp</a>
     </div>
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="header-icon-group">
+      <button class="icon-btn-round" id="searchToggle" aria-label="Search properties" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
+
+  <!-- SEARCH PANEL -->
+  <div class="search-panel" id="searchPanel">
+    <div class="container">
+      <form class="search-grid" id="propertySearchForm">
+        <div class="field">
+          <label for="s-location">Location</label>
+          <select id="s-location" name="location">
+            <option value="">Any Location</option>
+            <option value="borkheda">Borkheda</option>
+            <option value="baran-road">Baran Road</option>
+            <option value="kota-city">Kota City</option>
+            <option value="other">Other Areas</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="s-type">Property Type</label>
+          <select id="s-type" name="propertyType">
+            <option value="">Any Type</option>
+            <option value="villa">Villa</option>
+            <option value="plot">Plot</option>
+            <option value="house">House</option>
+            <option value="flat">Flat</option>
+            <option value="farmhouse">Farm House</option>
+            <option value="shop">Shop</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="s-purpose">Purpose</label>
+          <select id="s-purpose" name="purpose">
+            <option value="">Buy / Sell</option>
+            <option value="buy">Buy</option>
+            <option value="sell">Sell</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="s-budget">Budget</label>
+          <input type="text" id="s-budget" name="budget" placeholder="e.g. 50 Lakh - 70 Lakh">
+        </div>
+        <div class="field">
+          <button type="submit" class="btn btn-gold btn-block">Search Property</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="nav-overlay" id="navOverlay"></div>
 </header>
-<div class="nav-overlay" id="navOverlay"></div>
+
 
 <!-- HERO -->
 <section class="hero">
@@ -75,7 +128,7 @@
         </ul>
         <a href="about.html" class="btn btn-outline mt-40">More About Us</a>
       </div>
-      <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=900&auto=format&fit=crop" alt="Aadarsh Property villa exterior">
+      <img src="about-photo.jpg" alt="Aadarsh Property villa exterior">
     </div>
   </div>
 </section>
@@ -120,7 +173,7 @@
     </div>
     <div class="grid grid-2">
       <div class="card reveal">
-        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=900&auto=format&fit=crop" alt="Aadarsh Villa project">
+        <img src="aadarsh-villa-photo.jpg" alt="Aadarsh Villa project">
         <div class="card-body">
           <span class="card-tag">Villa Township</span>
           <h3>Aadarsh Villa</h3>
@@ -129,7 +182,7 @@
         </div>
       </div>
       <div class="card reveal">
-        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=900&auto=format&fit=crop" alt="Rail Vihar project">
+        <img src="rail-vihar-photo.jpg" alt="Rail-vihar">
         <div class="card-body">
           <span class="card-tag">Plots & Villas</span>
           <h3>Rail Vihar</h3>
@@ -154,8 +207,63 @@
   </div>
 </section>
 
+<!-- FEATURED PROPERTIES (Catalog listings) -->
+<section class="section bg-soft" id="featuredProperties">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Available Now</span>
+      <h2>Featured Properties</h2>
+      <p>A few of our current listings in Kota — message us for full details or a site visit.</p>
+    </div>
+    <div class="grid grid-3" id="propertyListGrid">
+      <div class="property-card reveal" data-type="villa" data-purpose="buy" data-location="borkheda">
+        <div class="property-media">
+          <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=700&q=80" alt="Corner Luxury Villa in Kota">
+          <span class="property-tag">For Sale</span>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Villa</span>
+          <h3>Corner Luxury Villa</h3>
+          <p>Book your dream house in Aadarsh Villa — premium corner unit with extra open space and natural light.</p>
+          <div class="property-price">₹70,00,000</div>
+          <a href="#" class="btn btn-primary mt-40" data-wa data-wa-msg="Hello, I am interested in the Corner Luxury Villa listed at ₹70,00,000." style="padding:10px 22px; font-size:0.85rem;">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="property-card reveal" data-type="villa" data-purpose="buy" data-location="borkheda">
+        <div class="property-media">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80" alt="Luxury Villa in Kota">
+          <span class="property-tag">For Sale</span>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Villa</span>
+          <h3>Luxury Villa</h3>
+          <p>Get your dream house in Aadarsh Villa — spacious layout with modern interiors and dedicated parking.</p>
+          <div class="property-price">₹55,00,000</div>
+          <a href="#" class="btn btn-primary mt-40" data-wa data-wa-msg="Hello, I am interested in the Luxury Villa listed at ₹55,00,000." style="padding:10px 22px; font-size:0.85rem;">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="property-card reveal" data-type="villa" data-purpose="buy" data-location="borkheda">
+        <div class="property-media">
+          <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=700&q=80" alt="Row villa township bookings open">
+          <span class="property-tag">Bookings Open</span>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Villa</span>
+          <h3>Bookings Open For Villa</h3>
+          <p>Aadarsh Villa — a luxury residential township with gated security and landscaped common areas.</p>
+          <div class="property-price">₹55,00,000</div>
+          <a href="#" class="btn btn-primary mt-40" data-wa data-wa-msg="Hello, I am interested in Bookings Open For Villa listed at ₹55,00,000." style="padding:10px 22px; font-size:0.85rem;">Enquire Now</a>
+        </div>
+      </div>
+    </div>
+    <p class="property-empty" id="propertyEmptyMsg" style="display:none;">No properties match your search — message us and we'll help you find one.</p>
+  </div>
+</section>
+
 <!-- TESTIMONIAL PREVIEW -->
-<section class="section bg-soft">
+<section class="section">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Client Love</span>
@@ -205,7 +313,7 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="footer-brand"><span class="brand-mark">A</span> Aadarsh Property & Builders</div>
+        <img src="images/logo.png" alt="Aadarsh Property and Builders Logo" class="brand-logo">
         <p style="font-size:0.88rem; line-height:1.7;">Your trusted real estate guide in Kota, Rajasthan since 2010. Buy, sell, construct and invest with complete transparency.</p>
       </div>
       <div>
@@ -241,7 +349,8 @@
   </div>
 </footer>
 <a href="#" class="wa-float" data-wa aria-label="Chat on WhatsApp">💬</a>
-<script src="config.js?v=2"></script>
-<script src="main.js?v=2"></script>
+<script src="config.js?v=3"></script>
+<script src="main.js?v=4"></script>
 </body>
-</html>
+          </html>
+          
