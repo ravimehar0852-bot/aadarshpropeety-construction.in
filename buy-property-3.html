@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buy Property | Aadarsh Property &amp; Builders — Kota</title>
+<meta name="description" content="Looking to buy a property in Kota? Share your requirement with Aadarsh Property &amp; Builders and explore suitable plots, houses, shops and commercial options.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"><img src="images/logo.png" alt="Aadarsh Property &amp; Builders Logo"></div>
+      <div class="brand-text">
+        <span class="brand-name">Aadarsh Property &amp; Builders</span>
+        <span class="brand-sub">Kota</span>
+      </div>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="buy-property.html" class="active">Buy Property</a>
+      <a href="sell-property.html">Sell Property</a>
+      <a href="about.html">About Us</a>
+      <a href="about.html#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="#" data-call class="icon-btn call-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="call-label">Call Now</span>
+      </a>
+      <a href="#" data-wa class="icon-btn wa-btn">WhatsApp</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1800&q=80');">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Buy Property</div>
+    <span class="eyebrow">For Buyers</span>
+    <h1>Looking to Buy a Property?</h1>
+    <p>Tell us what kind of property you are looking for, and we will help you explore suitable options.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split-panel">
+    <div class="split-copy reveal">
+      <span class="eyebrow">How It Works</span>
+      <h2>Buying a Property with Aadarsh Property &amp; Builders</h2>
+      <p>Whether you're looking for a residential plot, a house, a shop, or an investment property, Aadarsh Property &amp; Builders helps you understand what's available across Kota.</p>
+      <ul>
+        <li>Share your requirement using the form or WhatsApp.</li>
+        <li>We understand your budget, location and property type preference.</li>
+        <li>Suitable available options are shared with you.</li>
+        <li>Site visits and discussions are coordinated as needed.</li>
+        <li>Assistance is provided during documentation and registration.</li>
+      </ul>
+      <a href="#" data-wa data-wa-msg="Hello Aadarsh Property &amp; Builders, I am interested in buying a property. Please share available options." class="btn btn-wa">Chat on WhatsApp</a>
+    </div>
+
+    <div class="reveal">
+      <div class="form-card">
+        <h2 style="font-size:1.4rem;">Find My Property</h2>
+        <p style="color:var(--taupe); font-size:.9rem; margin-bottom:24px;">Fill in your requirement and we'll get back to you with suitable options.</p>
+        <form data-form="buy">
+          <div class="form-grid">
+            <div>
+              <label for="b-name">Name</label>
+              <input type="text" id="b-name" name="name" required>
+            </div>
+            <div>
+              <label for="b-phone">Phone</label>
+              <input type="tel" id="b-phone" name="phone" pattern="[0-9+\s-]{7,15}" required>
+            </div>
+            <div>
+              <label for="b-location">Preferred Location</label>
+              <select id="b-location" name="location" required>
+                <option value="">Select Location</option>
+                <option>Kota</option>
+                <option>Borkheda</option>
+                <option>Baran Road</option>
+                <option>Nayapura</option>
+                <option>Vigyan Nagar</option>
+                <option>Manpura</option>
+                <option>Talwandi</option>
+                <option>Other / Not Sure</option>
+              </select>
+            </div>
+            <div>
+              <label for="b-type">Property Type</label>
+              <select id="b-type" name="propertyType" required>
+                <option value="">Select Type</option>
+                <option>Plot</option>
+                <option>House</option>
+                <option>Shop</option>
+                <option>Farm House</option>
+                <option>Commercial</option>
+                <option>Investment</option>
+              </select>
+            </div>
+            <div class="full">
+              <label for="b-budget">Budget</label>
+              <input type="text" id="b-budget" name="budget" placeholder="e.g. 15 Lakh - 30 Lakh">
+            </div>
+            <div class="full">
+              <label for="b-requirement">Requirement Details</label>
+              <textarea id="b-requirement" name="requirement" placeholder="Tell us more about what you're looking for..."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" style="margin-top:22px;">Find My Property</button>
+          <p class="form-note">We typically respond within a few hours during business days.</p>
+        </form>
+        <div class="form-success">
+          <span>✅ Thank you! Your requirement has been noted.</span>
+          <a href="#" data-wa-submit target="_blank" rel="noopener" class="btn btn-sm btn-wa">Confirm on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="container">
+    <h2 class="reveal">Prefer to Talk Directly?</h2>
+    <p class="reveal">Call or message us on WhatsApp and we'll help you find the right property.</p>
+    <div class="hero-actions reveal">
+      <a href="#" data-call class="btn btn-ghost-light">Call Now</a>
+      <a href="#" data-wa class="btn btn-olive">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">AP</div>
+          <div class="brand-text"><span class="brand-name">Aadarsh Property &amp; Builders</span></div>
+        </a>
+        <p>Property buying and selling assistance across Kota, Rajasthan.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" data-wa aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="properties.html">Properties</a>
+        <a href="buy-property.html">Buy Property</a>
+        <a href="sell-property.html">Sell Property</a>
+        <a href="about.html">About Us</a>
+        <a href="about.html#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Property Categories</h4>
+        <a href="properties.html?propertyType=plot">Plots</a>
+        <a href="properties.html?propertyType=house">Houses</a>
+        <a href="properties.html?propertyType=shop">Shops</a>
+        <a href="properties.html?propertyType=farmhouse">Farm Houses</a>
+        <a href="properties.html?propertyType=commercial">Commercial</a>
+        <a href="properties.html?propertyType=investment">Investment</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="#" data-call>+91 94144 19786</a>
+        <span>Baran Road, near Borkheda Police Station, Kota, Rajasthan</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> Aadarsh Property &amp; Builders. All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms &amp; Conditions</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" data-wa class="float-wa" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+</a>
+<div class="mobile-call-bar">
+  <a href="#" data-call class="m-call">Call Now</a>
+  <a href="#" data-wa class="m-wa">WhatsApp</a>
+</div>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>
