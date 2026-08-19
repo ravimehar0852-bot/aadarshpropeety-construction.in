@@ -3,205 +3,258 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aadarsh Villa | Luxury Row Villas in Kota</title>
+<title>Aadarsh Villa | Luxury Row Villas in Kota | Aadarsh Property &amp; Builders</title>
 <meta name="description" content="Aadarsh Villa — a luxury row-villa township on Baran Road, Kota with premium amenities and modern design.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
+<!-- ===================== HEADER ===================== -->
 <header class="site-header">
-  <div class="nav-wrap">
+  <div class="header-inner">
     <a href="index.html" class="brand">
-      <span class="brand-mark">A</span>
-      <span>Aadarsh Property<br><small>& Builders</small></span>
-    </a>
-    <nav class="nav-links" id="navLinks">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="aadarsh-villa.html">Aadarsh Villa</a>
-      <a href="rail-vihar.html">Rail Vihar</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="testimonials.html">Reviews</a>
-      <a href="contact.html">Contact</a>
-      <div class="nav-cta-mobile btn-row" style="margin-top:20px;">
-        <a href="#" class="btn btn-primary" data-tel>Call Now</a>
+      <div class="brand-mark"><img src="images/logo.png" alt="Aadarsh Property &amp; Builders Logo"></div>
+      <div class="brand-text">
+        <span class="brand-name">Aadarsh Property &amp; Builders</span>
+        <span class="brand-sub">Kota</span>
       </div>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="buy-property.html">Buy Property</a>
+      <a href="sell-property.html">Sell Property</a>
+      <a href="about.html">About Us</a>
+      <a href="about.html#contact">Contact</a>
     </nav>
-    <div class="nav-cta">
-      <a href="#" class="btn btn-outline" data-tel>📞 094144 19786</a>
-      <a href="#" class="btn btn-primary" data-wa>WhatsApp</a>
+
+    <div class="header-actions">
+      <a href="#" data-call class="icon-btn call-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="call-label">Call Now</span>
+      </a>
+      <a href="#" data-wa class="icon-btn wa-btn">WhatsApp</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
   </div>
 </header>
-<div class="nav-overlay" id="navOverlay"></div>
 
-<section class="page-hero">
+<!-- ===================== PAGE HERO ===================== -->
+<section class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop');">
   <div class="container">
-    <div class="breadcrumb">Home / Projects / Aadarsh Villa</div>
+    <div class="breadcrumb"><a href="index.html">Home</a> / Projects / Aadarsh Villa</div>
     <h1>Aadarsh Villa</h1>
     <p>We create spaces where you feel safe, connected and truly at peace and comfort.</p>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="split reveal">
-      <div>
-        <span class="eyebrow">Signature Project</span>
-        <h2>Modern Row Villas, Thoughtfully Designed</h2>
-        <p style="margin:18px 0; color:var(--charcoal-soft);">Aadarsh Villa is our flagship residential township on Main Baran Road, near Borkheda Police Station, Kota. Each villa is built with a luxury hall, bedroom, kitchen and bathroom — finished with premium materials and modern design language.</p>
-        <div class="btn-row">
-          <a href="#" class="btn btn-primary" data-wa data-wa-msg="Hello, I am interested in Aadarsh Villa. Please share details.">Enquire Now</a>
-          <button class="btn btn-outline show-project-btn">📄 Show Our Project</button>
-        </div>
+<!-- ===================== INTRO SPLIT ===================== -->
+<section class="section" style="background:var(--white);">
+  <div class="container about-split">
+    <div class="about-copy reveal">
+      <span class="eyebrow">Signature Project</span>
+      <h2>Modern Row Villas, Thoughtfully Designed</h2>
+      <p>Aadarsh Villa is our flagship residential township on Main Baran Road, near Borkheda Police Station, Kota. Each villa is built with a luxury hall, bedroom, kitchen and bathroom — finished with premium materials and modern design language.</p>
+      <div class="hero-actions" style="margin-top:24px;">
+        <a href="#" class="btn btn-primary" data-wa data-wa-msg="Hello, I am interested in Aadarsh Villa. Please share details.">Enquire Now</a>
+        <a href="Aadarsh_Villa_Brochure.pdf" target="_blank" rel="noopener" class="btn btn-outline">📄 Show Our Project</a>
       </div>
+    </div>
+    <div class="about-photo reveal">
       <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=900&auto=format&fit=crop" alt="Aadarsh Villa exterior">
     </div>
   </div>
 </section>
 
-<section class="section bg-soft">
+<!-- ===================== INTERIORS ===================== -->
+<section class="section">
   <div class="container">
-    <div class="section-head reveal">
+    <div class="section-head center reveal">
       <span class="eyebrow">Interiors</span>
       <h2>Luxury Living, Every Room</h2>
     </div>
-    <div class="grid grid-4">
-      <div class="card reveal">
+    <div class="cat-grid">
+      <div class="cat-card reveal">
         <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=600&auto=format&fit=crop" alt="Luxury hall">
-        <div class="card-body"><h3 style="font-size:1rem;">Luxury Hall</h3></div>
+        <div class="cat-overlay"><h3>Luxury Hall</h3></div>
       </div>
-      <div class="card reveal">
+      <div class="cat-card reveal">
         <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=600&auto=format&fit=crop" alt="Luxury bedroom">
-        <div class="card-body"><h3 style="font-size:1rem;">Luxury Bed Room</h3></div>
+        <div class="cat-overlay"><h3>Luxury Bed Room</h3></div>
       </div>
-      <div class="card reveal">
+      <div class="cat-card reveal">
         <img src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=600&auto=format&fit=crop" alt="Luxury kitchen">
-        <div class="card-body"><h3 style="font-size:1rem;">Luxury Kitchen</h3></div>
+        <div class="cat-overlay"><h3>Luxury Kitchen</h3></div>
       </div>
-      <div class="card reveal">
+      <div class="cat-card reveal">
         <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=600&auto=format&fit=crop" alt="Luxury bathroom">
-        <div class="card-body"><h3 style="font-size:1rem;">Luxury Bathroom</h3></div>
+        <div class="cat-overlay"><h3>Luxury Bathroom</h3></div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section">
+<!-- ===================== AMENITIES ===================== -->
+<section class="section" style="background:var(--white);">
   <div class="container">
-    <div class="section-head reveal">
+    <div class="section-head center reveal">
       <span class="eyebrow">Amenities</span>
       <h2>Everything You Need, Close By</h2>
     </div>
-    <div class="grid grid-4">
-      <div class="service-card reveal"><div class="service-icon">🌳</div><h3 style="font-size:0.98rem;">Green Park</h3></div>
-      <div class="service-card reveal"><div class="service-icon">🛍️</div><h3 style="font-size:0.98rem;">Shopping Area</h3></div>
-      <div class="service-card reveal"><div class="service-icon">🤝</div><h3 style="font-size:0.98rem;">Community Spaces</h3></div>
-      <div class="service-card reveal"><div class="service-icon">🔒</div><h3 style="font-size:0.98rem;">3-Tier Security</h3></div>
+    <div class="features-grid">
+      <div class="feature-card reveal">
+        <div class="feature-icon">🌳</div>
+        <h3>Green Park</h3>
+        <p>Landscaped green spaces within the township.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon">🛍️</div>
+        <h3>Shopping Area</h3>
+        <p>Dedicated shopping stores for everyday needs.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon">🤝</div>
+        <h3>Community Spaces</h3>
+        <p>Community hall and gathering areas for residents.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon">🔒</div>
+        <h3>3-Tier Security</h3>
+        <p>Round-the-clock professional security coverage.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section bg-soft">
-  <div class="container">
-    <div class="split reveal">
-      <div>
-        <span class="eyebrow">Specifications</span>
-        <h2>Built to Last, Designed to Impress</h2>
-        <ul class="feature-list mt-40">
-          <li>Designer door frames with panelling; laminated flush main door with SS/brass hardware & wire mesh door</li>
-          <li>Single bowl SS sink with electrical points for aquaguard, chimney, water purifier, exhaust fan, geyser, mixer, grinder, refrigerator & microwave</li>
-          <li>Cooking gas pipeline fitting in every kitchen</li>
-          <li>AC copper piping & RCC drainage system in all bedrooms and living areas</li>
-          <li>CCTV camera point in each villa</li>
-          <li>DTH, internet & fibre optical cable installed in every villa</li>
-          <li>Round-the-clock security by professional agency with 3-tier CCTV surveillance</li>
-          <li>Modern street lighting throughout the township</li>
-        </ul>
-      </div>
+<!-- ===================== SPECIFICATIONS ===================== -->
+<section class="section">
+  <div class="container about-split">
+    <div class="about-copy reveal">
+      <span class="eyebrow">Specifications</span>
+      <h2>Built to Last, Designed to Impress</h2>
+      <ul class="about-list" style="grid-template-columns:1fr; margin-top:20px;">
+        <li>Designer door frames with panelling; laminated flush main door with SS/brass hardware &amp; wire mesh door</li>
+        <li>Single bowl SS sink with electrical points for aquaguard, chimney, water purifier, exhaust fan, geyser, mixer, grinder, refrigerator &amp; microwave</li>
+        <li>Cooking gas pipeline fitting in every kitchen</li>
+        <li>AC copper piping &amp; RCC drainage system in all bedrooms and living areas</li>
+        <li>CCTV camera point in each villa</li>
+        <li>DTH, internet &amp; fibre optical cable installed in every villa</li>
+        <li>Round-the-clock security by professional agency with 3-tier CCTV surveillance</li>
+        <li>Modern street lighting throughout the township</li>
+      </ul>
+    </div>
+    <div class="about-photo reveal">
       <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=900&auto=format&fit=crop" alt="Villa specifications">
     </div>
   </div>
 </section>
 
-<section class="section">
+<!-- ===================== LOCATION ADVANTAGE ===================== -->
+<section class="section" style="background:var(--white);">
   <div class="container">
-    <div class="section-head reveal">
+    <div class="section-head center reveal">
       <span class="eyebrow">Location Advantage</span>
       <h2>Well-Connected, Everything Nearby</h2>
     </div>
-    <div class="grid grid-3">
-      <div class="testi-card reveal"><b>Nayapura Bus Stand</b><p style="color:var(--charcoal-soft); margin-top:6px;">4 km away</p></div>
-      <div class="testi-card reveal"><b>New Bus Stand</b><p style="color:var(--charcoal-soft); margin-top:6px;">4 km away</p></div>
-      <div class="testi-card reveal"><b>Allen "Supath"</b><p style="color:var(--charcoal-soft); margin-top:6px;">2.5 km away</p></div>
-      <div class="testi-card reveal"><b>Kota Railway Junction</b><p style="color:var(--charcoal-soft); margin-top:6px;">5 km away</p></div>
-      <div class="testi-card reveal"><b>Chambal River Front</b><p style="color:var(--charcoal-soft); margin-top:6px;">5 km away</p></div>
-      <div class="testi-card reveal"><b>Singhaniya School & Sanjivani Hospital</b><p style="color:var(--charcoal-soft); margin-top:6px;">1.5 km away</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="section bg-soft">
-  <div class="container">
-    <div class="cta-banner reveal">
-      <h2>Book Your Aadarsh Villa Today</h2>
-      <p>Main Baran Road, Near Borkheda Police Station, Kota</p>
-      <div class="btn-row" style="justify-content:center;">
-        <a href="#" class="btn btn-gold" data-wa data-wa-msg="Hello, I want to book a villa in Aadarsh Villa project.">WhatsApp Enquiry</a>
-        <a href="tel:+918829813285" class="btn btn-outline-light">Call 88298 13285</a>
-        <button class="btn btn-outline-light show-project-btn">📄 Show Our Project</button>
+    <div class="features-grid">
+      <div class="feature-card reveal">
+        <h3 style="font-size:1rem; margin-bottom:4px;">Nayapura Bus Stand</h3>
+        <p>4 km away</p>
+      </div>
+      <div class="feature-card reveal">
+        <h3 style="font-size:1rem; margin-bottom:4px;">New Bus Stand</h3>
+        <p>4 km away</p>
+      </div>
+      <div class="feature-card reveal">
+        <h3 style="font-size:1rem; margin-bottom:4px;">Allen "Supath"</h3>
+        <p>2.5 km away</p>
+      </div>
+      <div class="feature-card reveal">
+        <h3 style="font-size:1rem; margin-bottom:4px;">Kota Railway Junction</h3>
+        <p>5 km away</p>
+      </div>
+      <div class="feature-card reveal">
+        <h3 style="font-size:1rem; margin-bottom:4px;">Chambal River Front</h3>
+        <p>5 km away</p>
+      </div>
+      <div class="feature-card reveal">
+        <h3 style="font-size:1rem; margin-bottom:4px;">Singhaniya School &amp; Sanjivani Hospital</h3>
+        <p>1.5 km away</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- ===================== TRUST STRIP / CTA ===================== -->
+<section class="trust-strip">
+  <div class="container">
+    <h2 class="reveal">Book Your Aadarsh Villa Today</h2>
+    <p style="color:var(--beige); margin-top:10px;" class="reveal">Main Baran Road, Near Borkheda Police Station, Kota</p>
+    <div class="hero-actions reveal" style="margin-top:24px;">
+      <a href="#" class="btn btn-olive" data-wa data-wa-msg="Hello, I want to book a villa in Aadarsh Villa project.">WhatsApp Enquiry</a>
+      <a href="tel:+918829813285" class="btn btn-ghost-light">Call 88298 13285</a>
+      <a href="Aadarsh_Villa_Brochure.pdf" target="_blank" rel="noopener" class="btn btn-ghost-light">📄 Show Our Project</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
-      <div>
-        <div class="footer-brand"><span class="brand-mark">A</span> Aadarsh Property & Builders</div>
-        <p style="font-size:0.88rem; line-height:1.7;">Your trusted real estate guide in Kota, Rajasthan since 2010. Buy, sell, construct and invest with complete transparency.</p>
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <div class="brand-mark"><img src="images/logo.png" alt="Aadarsh Property &amp; Builders Logo"></div>
+          <div class="brand-text"><span class="brand-name">Aadarsh Property &amp; Builders</span></div>
+        </a>
+        <p>Property buying and selling assistance across Kota, Rajasthan.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" data-wa aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        </div>
       </div>
-      <div>
+      <div class="footer-col">
         <h4>Quick Links</h4>
-        <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Our Services</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="testimonials.html">Reviews</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="properties.html">Properties</a>
+        <a href="buy-property.html">Buy Property</a>
+        <a href="sell-property.html">Sell Property</a>
+        <a href="about.html">About Us</a>
+        <a href="about.html#contact">Contact</a>
       </div>
-      <div>
+      <div class="footer-col">
         <h4>Our Projects</h4>
-        <ul>
-          <li><a href="aadarsh-villa.html">Aadarsh Villa</a></li>
-          <li><a href="rail-vihar.html">Rail Vihar</a></li>
-          <li><a href="property-dealing.html">Property Dealing</a></li>
-          <li><a href="construction.html">Construction</a></li>
-        </ul>
+        <a href="aadarsh-villa.html">Aadarsh Villa</a>
+        <a href="rail-vihar.html">Rail Vihar</a>
       </div>
-      <div>
+      <div class="footer-col">
         <h4>Contact</h4>
-        <ul>
-          <li>📍 Near Borkheda Police Station, Baran Road, Kota, Rajasthan</li>
-          <li>📞 <a href="#" data-tel>094144 19786</a></li>
-          <li>⭐ 5.0 Rating · 30 Google Reviews</li>
-        </ul>
+        <a href="#" data-call>+91 94144 19786</a>
+        <span>Baran Road, near Borkheda Police Station, Kota, Rajasthan</span>
       </div>
     </div>
     <div class="footer-bottom">
-      &copy; <span id="year"></span> Aadarsh Property and Builders. All rights reserved.
+      <span>&copy; <span data-year></span> Aadarsh Property &amp; Builders. All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms &amp; Conditions</a></span>
     </div>
   </div>
 </footer>
-<a href="#" class="wa-float" data-wa aria-label="Chat on WhatsApp">💬</a>
-<script src="config.js"></script>
-<script src="main.js"></script>
+
+<!-- ===================== FLOATING BUTTONS ===================== -->
+<a href="#" data-wa class="float-wa" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+</a>
+<div class="mobile-call-bar">
+  <a href="#" data-call class="m-call">Call Now</a>
+  <a href="#" data-wa class="m-wa">WhatsApp</a>
+</div>
+
+<script src="script.js?v=2"></script>
 </body>
 </html>
