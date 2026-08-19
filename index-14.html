@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aadarsh Property &amp; Builders | Real Estate &amp; Construction Company in Kota</title>
+<meta name="description" content="Aadarsh Property &amp; Builders helps customers find residential plots, houses, shops, farm houses, commercial and investment properties across Kota, Rajasthan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"><img src="images/logo.png" alt="Aadarsh Property &amp; Builders Logo"></div>
+      <div class="brand-text">
+        <span class="brand-name">Aadarsh Property &amp; Builders</span>
+        <span class="brand-sub">Kota</span>
+      </div>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html" class="active">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="buy-property.html">Buy Property</a>
+      <a href="sell-property.html">Sell Property</a>
+      <a href="about.html">About Us</a>
+      <a href="about.html#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#" data-call class="icon-btn call-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="call-label">Call Now</span>
+      </a>
+      <a href="#" data-wa class="icon-btn wa-btn">WhatsApp</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80');"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="eyebrow">Aadarsh Property &amp; Builders &middot; Est. 2010</span>
+    <h1>Find the Right Property. With the Right Guidance.</h1>
+    <p class="lead">Explore verified property opportunities across Kota with Aadarsh Property &amp; Builders.</p>
+    <div class="hero-actions">
+      <a href="properties.html" class="btn btn-primary">Explore Properties</a>
+      <a href="about.html#contact" class="btn btn-ghost-light">Talk to Us</a>
+    </div>
+    <p class="hero-trust">Plots &bull; Houses &bull; Shops &bull; Farm Houses &bull; Commercial &amp; Investment Properties</p>
+  </div>
+</section>
+
+<!-- ===================== SEARCH BOX ===================== -->
+<div class="container search-wrap">
+  <div class="search-box reveal">
+    <h2>Find Your Property</h2>
+    <form class="search-grid" data-search-form>
+      <div class="field">
+        <label for="s-location">Location</label>
+        <select id="s-location" name="location">
+          <option value="">Any Location</option>
+          <option value="kota">Kota</option>
+          <option value="borkheda">Borkheda</option>
+          <option value="baran-road">Baran Road</option>
+          <option value="nayapura">Nayapura</option>
+          <option value="gudha-gorji">Gudha Gorji</option>
+          <option value="manpura">Manpura</option>
+          <option value="mukundgarh">Mukundgarh</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="s-type">Property Type</label>
+        <select id="s-type" name="propertyType">
+          <option value="">Any Type</option>
+          <option value="plot">Plot</option>
+          <option value="house">House</option>
+          <option value="shop">Shop</option>
+          <option value="farmhouse">Farm House</option>
+          <option value="commercial">Commercial</option>
+          <option value="investment">Investment</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="s-purpose">Purpose</label>
+        <select id="s-purpose" name="purpose">
+          <option value="">Buy / Sell</option>
+          <option value="buy">Buy</option>
+          <option value="sell">Sell</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="s-budget">Budget</label>
+        <input type="text" id="s-budget" name="budget" placeholder="e.g. 15 Lakh - 30 Lakh">
+      </div>
+      <div class="field">
+        <button type="submit" class="btn btn-primary btn-block">Search Property</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- ===================== PROPERTY CATEGORIES ===================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Property Categories</span>
+      <h2>Explore by Property Type</h2>
+      <p>From residential plots to commercial investments, discover options suited to your requirement.</p>
+    </div>
+    <div class="cat-grid">
+      <a class="cat-card reveal" href="properties.html?propertyType=plot">
+        <img src="images/residential plot.jpg" alt="Residential plot land in Rajasthan">
+        <div class="cat-overlay"><h3>Residential Plots</h3><p>Find suitable residential plots in selected locations.</p></div>
+      </a>
+      <a class="cat-card reveal" href="properties.html?propertyType=house">
+        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80" alt="House available for purchase">
+        <div class="cat-overlay"><h3>Houses</h3><p>Explore houses available for purchase.</p></div>
+      </a>
+      <a class="cat-card reveal" href="properties.html?propertyType=shop">
+        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80" alt="Commercial shop for sale">
+        <div class="cat-overlay"><h3>Shops</h3><p>Discover commercial shops in suitable locations.</p></div>
+      </a>
+      <a class="cat-card reveal" href="properties.html?propertyType=farmhouse">
+        <img src="https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=800&q=80" alt="Farm house and land opportunity">
+        <div class="cat-overlay"><h3>Farm Houses</h3><p>Explore farm house and land opportunities.</p></div>
+      </a>
+      <a class="cat-card reveal" href="properties.html?propertyType=commercial">
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80" alt="Commercial property suitable for business">
+        <div class="cat-overlay"><h3>Commercial Properties</h3><p>Properties suitable for commercial use and investment.</p></div>
+      </a>
+      <a class="cat-card reveal" href="properties.html?propertyType=investment">
+        <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=800&q=80" alt="Investment property with long term value">
+        <div class="cat-overlay"><h3>Investment Properties</h3><p>Explore properties with potential long-term value.</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FEATURED PROPERTIES ===================== -->
+<section class="section" style="background:var(--white);">
+  <div class="container">
+    <div class="section-cta-row reveal">
+      <div class="section-head" style="margin-bottom:0;">
+        <span class="eyebrow">Featured Properties</span>
+        <h2>Explore Selected Properties</h2>
+        <p>Explore selected properties across Kota.</p>
+      </div>
+      <a href="properties.html" class="btn btn-outline">View All Properties</a>
+    </div>
+
+    <div class="property-grid">
+      <article class="property-card reveal">
+        <div class="property-media">
+          <span class="property-tag">For Sale</span>
+          <span class="property-price-tag">Price on Request</span>
+          <img src="images/residential.jpg" alt="Residential plot in Kota">
+        </div>
+        <div class="property-body">
+          <h3>Modern Duplex House</h3>
+          <p class="property-loc">📍Baran road,samridhi nagar, Kota, Rajasthan</p>
+          <div class="property-meta"><span>Type:</span> Plot &nbsp; <span>Size:</span> 25×40 & 3BHK; <span>Status:</span> Available</div>
+          <p class="property-desc">A well-located Modern Duplex House suitable for family, close to the main city area. Placeholder details — actual specifications to be added.</p>
+          <div class="property-actions">
+            <a href="residential-plot-kota.html" class="btn btn-outline">View Property</a>
+            <a href="#" data-wa data-wa-msg="Hello Aadarsh Property &amp; Builders, I am interested in the Residential Plot in Kota." class="btn btn-wa">WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="property-card reveal">
+        <div class="property-media">
+          <span class="property-tag">For Sale</span>
+          <span class="property-price-tag">Price on Request</span>
+          <img src="images/independenthouse.jpg" alt="House for sale in Borkheda, Kota">
+        </div>
+        <div class="property-body">
+          <h3>Independent House</h3>
+          <p class="property-loc">📍 Borkheda, Kota</p>
+          <div class="property-meta"><span>Type:</span> House &nbsp; <span>Area:</span> 1800 sq.ft. &nbsp; <span>Status:</span> Available</div>
+          <p class="property-desc">A comfortable independent house in a well-connected neighbourhood. Placeholder details — actual specifications to be added.</p>
+          <div class="property-actions">
+            <a href="independent-house-borkheda.html" class="btn btn-outline">View Property</a>
+            <a href="#" data-wa data-wa-msg="Hello Aadarsh Property &amp; Builders, I am interested in the House in Borkheda, Kota." class="btn btn-wa">WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="property-card reveal">
+        <div class="property-media">
+          <span class="property-tag">For Sale</span>
+          <span class="property-price-tag">Price on Request</span>
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=700&q=80" alt="Commercial shop for sale in Baran Road, Kota">
+        </div>
+        <div class="property-body">
+          <h3>Commercial Shop</h3>
+          <p class="property-loc">📍 Baran Road, Kota</p>
+          <div class="property-meta"><span>Type:</span> Shop &nbsp; <span>Area:</span> 450 sq.ft. &nbsp; <span>Status:</span> Available</div>
+          <p class="property-desc">A commercial shop suited for retail business, located on a busy market road. Placeholder details — actual specifications to be added.</p>
+          <div class="property-actions">
+            <a href="commercial-shop-baran-road.html" class="btn btn-outline">View Property</a>
+            <a href="#" data-wa data-wa-msg="Hello Aadarsh Property &amp; Builders, I am interested in the Commercial Shop in Baran Road, Kota." class="btn btn-wa">WhatsApp</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CURRENT PROJECTS ===================== -->
+<section class="section" style="background:var(--white);">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Current Projects</span>
+      <h2>Our Ongoing Township &amp; Villa Projects</h2>
+      <p>Explore our current residential developments — download the full project brochure for complete details, layouts and pricing.</p>
+    </div>
+
+    <div class="property-grid">
+
+      <article class="property-card reveal">
+        <div class="property-media">
+          <span class="property-tag">Ongoing Project</span>
+          <img src="rail-vihar-photo.jpg" alt="Rail-vihar">
+        </div>
+        <div class="property-body">
+          <h3>Rail Vihar — A Luxury Residential Township</h3>
+          <p class="property-loc">📍 Baran Road, near Borkheda Police Station, Kota, Rajasthan</p>
+          <div class="property-meta"><span>Plot &amp; Villa Sizes:</span> 1006 – 2000 sq.ft.</div>
+          <p class="property-desc">
+            KDA approved township by Indian Railway Welfare Organization, powered by Aadarsh Group. Open to all buyers, railway employment not required.
+            Amenities include underground lighting, 10,000 sq.ft. community hall, swimming pool, 40 ft. wide roads, 5 large parks, open gym, senior citizen space, commercial market and 24x7 security.
+          </p>
+          <div class="property-actions">
+            <a href="pdfs/rail-vihar.pdf" target="_blank" rel="noopener" class="btn btn-primary">📄 Show Our Project</a>
+            <a href="#" data-wa data-wa-msg="Hello, I am interested in the Rail Vihar project in Kota." class="btn btn-wa">WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="property-card reveal">
+        <div class="property-media">
+          <span class="property-tag">Ongoing Project</span>
+          <img src="aadarsh-villa-photo.jpg" alt="Aadarsh Villa project">
+        </div>
+        <div class="property-body">
+          <h3>Aadarsh Villa — Premium Plots &amp; Villas</h3>
+          <p class="property-loc">📍 Near Borkheda Police Station, Kota, Rajasthan</p>
+          <div class="property-meta"><span>Starting Price:</span> ₹55,00,000 onwards</div>
+          <p class="property-desc">
+            Thoughtfully designed luxury villas connected to the city with spacious living areas and a variety of designs.
+            Amenities include a garden area, community hall, hospital &amp; gym facility and shopping stores — with registry and loan facility assistance.
+          </p>
+          <div class="property-actions">
+            <a href="Aadarsh_Villa_Brochure.pdf" target="_blank" rel="noopener" class="btn btn-primary">📄 Show Our Project</a>
+            <a href="#" data-wa data-wa-msg="Hello, I am interested in the Aadarsh Villa project in Kota." class="btn btn-wa">WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY CHOOSE Aadarsh ===================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Why Aadarsh</span>
+      <h2>Why Choose Aadarsh Property &amp; Builders?</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 21h22M4 21V9l8-6 8 6v12M9 21v-6h6v6"/></svg></div>
+        <h3>Local Property Knowledge</h3>
+        <p>Strong understanding of property opportunities across Kota.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div>
+        <h3>Property-Focused Guidance</h3>
+        <p>Personal assistance based on the customer's requirements.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Transparent Communication</h3>
+        <p>Clear information throughout the property dealing process.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="7" width="18" height="13" rx="1"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div>
+        <h3>Suitable Property Options</h3>
+        <p>Residential, commercial and investment property choices.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Buyer &amp; Seller Assistance</h3>
+        <p>Support for both property buyers and property owners.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 15l2 2 4-4"/></svg></div>
+        <h3>Registration Guidance</h3>
+        <p>Assistance and coordination during property documentation and registration processes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT SPLIT ===================== -->
+<section class="section" style="background:var(--white);">
+  <div class="container about-split">
+    <div class="about-photo reveal">
+<img src="images/owner.jpg" alt="Shrif Sir, Proprietor of Aadarsh Property &amp; Builders">
+    </div>
+    <div class="about-copy reveal">
+      <span class="eyebrow">About Aadarsh</span>
+      <h2>Trusted Property Guidance Across Kota</h2>
+      <p>Aadarsh Property &amp; Builders is a property dealing business operated by Shrif Sir, serving customers across Kota, Rajasthan.</p>
+      <p>The company helps customers explore a wide range of property options with honest guidance at every step.</p>
+      <ul class="about-list">
+        <li>Residential Plots</li>
+        <li>Houses</li>
+        <li>Shops</li>
+        <li>Farm Houses</li>
+        <li>Commercial Properties</li>
+        <li>Investment Properties</li>
+      </ul>
+      <a href="about.html" class="btn btn-primary">Learn More</a>
+      <div class="about-values">
+        <div>Trust</div><div>Transparency</div><div>Local Knowledge</div><div>Personal Guidance</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICE LOCATIONS ===================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Service Locations</span>
+      <h2>Properties Across Kota</h2>
+    </div>
+    <div class="locations-wrap">
+      <div class="location-chips reveal">
+        <span class="location-chip">Kota</span>
+        <span class="location-chip">Borkheda</span>
+        <span class="location-chip">Baran Road</span>
+        <span class="location-chip">Nayapura</span>
+        <span class="location-chip">Vigyan Nagar</span>
+        <span class="location-chip">Manpura</span>
+        <span class="location-chip">Talwandi</span>
+        <span class="location-chip">Nearby Areas</span>
+      </div>
+      <div class="map-embed reveal">
+        <iframe src="https://www.google.com/maps?q=Kota,Rajasthan&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Aadarsh Property &amp; Builders service area map"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TRUST STRIP ===================== -->
+<section class="trust-strip">
+  <div class="container">
+    <h2 class="reveal">Your Property Journey, Guided With Trust.</h2>
+    <div class="trust-facts">
+      <div class="trust-fact reveal"><strong>2010</strong><span>Established</span></div>
+      <div class="trust-fact reveal"><strong>Kota</strong><span>Service Areas</span></div>
+      <div class="trust-fact reveal"><strong>Buying &amp; Selling</strong><span>Property Services</span></div>
+      <div class="trust-fact reveal"><strong>Personal</strong><span>Assistance</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FINAL CTA ===================== -->
+<section class="final-cta">
+  <div class="container">
+    <h2 class="reveal">Looking for Property in Kota?</h2>
+    <p class="reveal">Share your requirement and explore suitable property options with Aadarsh Property &amp; Builders.</p>
+    <div class="hero-actions reveal">
+      <a href="properties.html" class="btn btn-ghost-light">Explore Properties</a>
+      <a href="about.html#contact" class="btn btn-olive">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <div class="brand-mark"><img src="images/logo.png" alt="Aadarsh Property &amp; Builders Logo"></div>
+          <div class="brand-text"><span class="brand-name">Aadarsh Property &amp; Builders</span></div>
+        </a>
+        <p>Property buying and selling assistance across Kota, Rajasthan.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" data-wa aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="properties.html">Properties</a>
+        <a href="buy-property.html">Buy Property</a>
+        <a href="sell-property.html">Sell Property</a>
+        <a href="about.html">About Us</a>
+        <a href="about.html#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Our Projects</h4>
+        <a href="aadarsh-villa.html">Aadarsh Villa</a>
+        <a href="rail-vihar.html">Rail Vihar</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="#" data-call>+91 94144 19786</a>
+        <span>Baran Road, near Borkheda Police Station, Kota, Rajasthan</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> Aadarsh Property &amp; Builders. All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms &amp; Conditions</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" data-wa class="float-wa" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+</a>
+<div class="mobile-call-bar">
+  <a href="#" data-call class="m-call">Call Now</a>
+  <a href="#" data-wa class="m-wa">WhatsApp</a>
+</div>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>
